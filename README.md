@@ -1,6 +1,6 @@
 # file-building
 
-I will write a program that keeps track of who works in what building. Each person will be identified by their first name, and each building will be identified by a number. While the program is running, this information will be stored in a dictionary. When the program is not running, the information will be kept in a file.
+This program will keep track of who works in what building. Each person will be identified by their first name, and each building will be identified by a number. While the program is running, this information will be stored in a dictionary. When the program is not running, the information will be kept in a file.
 
 The program does the following:
 
