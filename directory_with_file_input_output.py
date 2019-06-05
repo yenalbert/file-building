@@ -1,5 +1,8 @@
 import pickle
 
+'''
+Beginning of the DictionaryFileManager class
+'''
 
 class DictionaryFileManager:
 
@@ -17,7 +20,6 @@ class DictionaryFileManager:
         except FileNotFoundError:
             x = {}
             return (x)
-
 
 '''
 End of the DictionaryFileManager class
