@@ -1,9 +1,5 @@
 import pickle
 
-'''
-Beginning of the DictionaryFileManager class
-'''
-
 class DictionaryFileManager:
 
     def __init__(self, fileName):
@@ -20,10 +16,6 @@ class DictionaryFileManager:
         except FileNotFoundError:
             x = {}
             return (x)
-
-'''
-End of the DictionaryFileManager class
-'''
 
 try:
     with open('dictionary.txt', 'r+b') as BldgDictionary:
